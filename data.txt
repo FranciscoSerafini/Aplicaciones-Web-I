@@ -1,0 +1,3 @@
+cronograma = https://drive.google.com/file/d/1dG0I1gbMiDEaEOJJqA8KEKhB4oIRltMT/view?usp=drivesdk
+guia de tps = https://docs.google.com/document/d/1672QqX4beB_j9MHpPhr4pZ-MErW1PjFGSd9QAhZ8iQA/edit?usp=sharing
+pdf = https://drive.google.com/drive/folders/1wCbGoDBWVgKJd1Vgmc1ALvRWn76jg343?usp=sharing
