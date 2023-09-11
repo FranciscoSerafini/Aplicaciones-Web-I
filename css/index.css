@@ -1,0 +1,25 @@
+.parrafo{
+    background-color: brown;
+}
+label{
+    background-color: brown;
+}
+
+.parrafo2{  
+    background-color: aqua;
+}
+.titulo{
+    background-color: blue;
+}
+.seccion{
+    background-color: gold;
+    padding: 20px;
+    color: blanchedalmond;
+}
+.seccion_titulo {
+    background-color: brown;
+    
+}
+.seccion_parrafo{
+    background-color: coral;
+}
