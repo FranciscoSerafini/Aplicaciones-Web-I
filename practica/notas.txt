@@ -1,0 +1,23 @@
+-Desde H1 a H6 lo utilizamos para titulos
+-hr lo utilizamos para crear una linea horizontal en la web
+-con la etiqueta de <span> podemos darle color a las palabras encerradas en el
+-con la etiqueta BR no sirve para realizar un salto de linea
+-la etiqueta de hipervinculo nos ayuda a navegar por las paginas <A HREF=" LE INDICAMOS LA URL"
+-<a target ="_blank" -> nos ayuda a abrir una nueva pestaña con el URL   <a href="https://www.google.com.ar" target="_blank">Ir a google</a>
+----imagen-----
+-para mostrar una imagen utilizamos <img src="ruta de donde esta la imagen"
+-para mostrar una imagen desde la carpeta donde la tenemos solo le tenemos que pasar la ruta en src=" "
+-con widtth le damos el tamaño (Ancho)
+-con height le indicamos el tamaño (Alto)
+------formularios-------
+con la etiqueta <form> podemos abrir un formularios
+-con input podemos ingresar datos
+-label for = le indicamos el id que va a tener conectado con el input para que puedan estar relacionados la etiqueta con la caja de texto
+        <label for="id-nombre">Ingrese su nombre</label>
+        <input id="id-nombre" name="nombre" placeholder="Nombre">
+    placeholder -> LO utilizamos para poder poner una palabra dentro de la caja de texto
+
+-input type -> le asignamos valores para que actua de diferentes formas -> submit = BOTON, text = texto
+-podemos indicarle -> submit, email, radio, checkbox, file   
+-textArea lo utilizamos para poner comentarios
+    rows=para decirle filas cols = para decirle la cantidad de columnas
