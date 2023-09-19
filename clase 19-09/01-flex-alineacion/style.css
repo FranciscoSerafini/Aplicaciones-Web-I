@@ -1,0 +1,30 @@
+*{ 
+    box-sizing: border-box;
+}
+html,body,h1 {
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid crimson;
+    padding: 15px;
+    height: 200px;
+    
+}
+h1{
+    border: 1px solid crimson;
+    display: flex;
+    align-items: center;
+}
+nav{
+    border: 1px solid crimson;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}

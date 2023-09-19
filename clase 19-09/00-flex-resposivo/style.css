@@ -1,0 +1,89 @@
+/* modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+
+/* reset */
+html,
+body,
+h1,
+h2,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* utilizar el 100% del viewport (ventana) */
+html,
+body {
+    height: 100%;
+}
+
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #cccccc;
+    height:80px;
+}
+
+main {
+    display: flex;
+    /* wrap -> tira para abajo el item
+    cuando llega al final disponeble. 
+    El item debe tener un ancho especificado.
+    */
+    flex-wrap: wrap;
+    
+    /* 
+        grow -> expande el item
+        hasta ocupar el ancho o alto dependiendo de flex-direction
+        como el contenedor es "column"
+        va en sentido vertical (expande vertical) 
+    */
+    flex-grow: 1;
+
+    /* alinea el contenido al principio */
+    align-content: flex-start;
+
+    /* Alinea contenido al centro */
+    /* justify-content: center; */
+
+    /* espaciado */
+    gap: 10px;
+    padding:10px;
+}
+main > article {
+    padding:10px;
+    color:#ffffff;
+    background-color: #222222;
+    width: 100%;
+}
+@media (min-width: 480px) {
+    main > article {
+        width: calc(50% - 5px);
+    }
+}
+@media (min-width: 768px) {
+    main > article {
+        width: calc(33.33% - 7px);
+    }
+}
+@media (min-width: 980px) {
+    main > article {
+        width: calc(25% - 8px);
+    }
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    height:80px;
+}

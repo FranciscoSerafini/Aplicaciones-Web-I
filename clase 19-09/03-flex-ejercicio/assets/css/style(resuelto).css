@@ -1,0 +1,105 @@
+:root {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+/* Modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+/* quitar margeners y rellenos */
+html,
+body,
+h1,
+h2,
+h5,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+/* html/body */
+html,
+body {
+    height: 100%;
+}
+
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5%;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.header__titulo {
+    font-size: 2rem;
+}
+.header__menu {
+    display: flex;
+    gap: 15px;
+}
+.header__menu > a {
+    text-decoration: none;
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+}
+.article__figure {
+    width: 100%;
+}
+.article__figure > img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.article__nota {
+    width: 100%;
+    padding: 0 20px 0 10px;
+}
+.article__titulo {
+    margin-block-end: 20px;
+    color: #1e0101;
+}
+.article__parrafo {
+    color: #451919;
+}
+/* media query  ancho minimo -> 600px*/
+@media (min-width: 600px) {
+    .article {
+        flex-direction: row;
+    }
+
+    .article__figure {
+        width: 50%;
+    }
+    .article__nota {
+        width: 50%;
+        padding: 0 20px 0 10px;
+    }
+}
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+.footer__referencia {
+    color: #333;
+}
