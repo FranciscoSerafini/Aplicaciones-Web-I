@@ -1,0 +1,8 @@
+1 - Creacion del objeto
+2 - Creación del HTML vista
+3 - DOM
+4 - Incorporación del JAVASCRIPT
+5 - Referenciar el elemento contenedor
+6 - Renderizar la vista
+7 - Modularizar
+8 - Refactorizar
